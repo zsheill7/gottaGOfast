@@ -15,5 +15,7 @@ func main() {
 // What does import fmt mean?
 
 // What does func mean?
+// use the func keyword,
 
 // How is main.go file organized?
+// This file's exact order
