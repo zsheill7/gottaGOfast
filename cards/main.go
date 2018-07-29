@@ -7,34 +7,21 @@ import "fmt"
 // Use card =
 
 func main() {
-	card := newCard()
-	fmt.Println(card)
+	cards := newDeck()
+	cards = append(cards, "Six of Spades")
+	//cards.print()
+
+	hand, remainingCards := deal(cards, 5)
+
+	hand.print()
+	remainingCards.print()
+	fmt.Println(cards)
 }
 
-func newCard() int {
-	return 12332
-}
-
-func newDeck() {
-
+func newCard() string {
+	return "hello"
 }
 
 func print() {
-
-}
-
-func shuffle() {
-
-}
-
-func deal() {
-
-}
-
-func saveToFile() {
-
-}
-
-func newDeckFromFile() {
 
 }
